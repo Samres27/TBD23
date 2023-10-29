@@ -1,0 +1,120 @@
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('alto','tocar_violin',1),
+  ('alto','tocar_violin',2),
+  ('muy_alto','tocar_flauta',3),
+  ('medio','tocar_violin',4),
+  ('medio','tocar_flauta',5),
+  ('medio','tocar_bajo',6),
+  ('alto','tocar_violin',7),
+  ('muy_alto','tocar_gitarra',8),
+  ('bajo','tocar_bateria',9),
+  ('medio','tocar_violin',10);
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('bajo','tocar_bateria',11),
+  ('muy_alto','tocar_bateria',12),
+  ('muy_alto','tocar_gitarra',13),
+  ('alto','cantar',14),
+  ('muy_alto','tocar_flauta',15),
+  ('alto','cantar',16),
+  ('medio','tocar_gitarra',17),
+  ('alto','tocar_violin',18),
+  ('medio','tocar_gitarra',19),
+  ('medio','tocar_bateria',20);
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('muy_alto','tocar_bajo',21),
+  ('medio','tocar_flauta',22),
+  ('bajo','tocar_bajo',23),
+  ('bajo','tocar_bateria',24),
+  ('bajo','tocar_bateria',25),
+  ('medio','tocar_violin',26),
+  ('medio','tocar_flauta',27),
+  ('medio','tocar_bateria',28),
+  ('medio','tocar_gitarra',29),
+  ('alto','tocar_gitarra',30);
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('medio','tocar_trompeta',31),
+  ('alto','cantar',32),
+  ('alto','tocar_bajo',33),
+  ('medio','cantar',34),
+  ('muy_alto','tocar_violin',35),
+  ('alto','tocar_trompeta',36),
+  ('alto','tocar_bajo',37),
+  ('alto','tocar_trompeta',38),
+  ('alto','tocar_bajo',39),
+  ('muy_alto','cantar',40);
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('alto','tocar_flauta',41),
+  ('medio','tocar_gitarra',42),
+  ('bajo','tocar_flauta',43),
+  ('alto','tocar_bateria',44),
+  ('alto','tocar_flauta',45),
+  ('medio','tocar_bajo',46),
+  ('alto','cantar',47),
+  ('medio','tocar_bateria',48),
+  ('alto','tocar_trompeta',49),
+  ('alto','tocar_flauta',50);
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('bajo','tocar_bajo',51),
+  ('bajo','tocar_trompeta',52),
+  ('muy_alto','tocar_violin',53),
+  ('muy_alto','tocar_viola',54),
+  ('medio','tocar_viola',55),
+  ('medio','tocar_violin',56),
+  ('medio','tocar_bajo',57),
+  ('muy_alto','cantar',58),
+  ('medio','tocar_gitarra',59),
+  ('muy_alto','tocar_gitarra',60);
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('muy_alto','tocar_gitarra',61),
+  ('muy_alto','tocar_gitarra',62),
+  ('alto','tocar_flauta',63),
+  ('alto','tocar_violin',64),
+  ('bajo','tocar_flauta',65),
+  ('medio','cantar',66),
+  ('medio','tocar_gitarra',67),
+  ('medio','tocar_bateria',68),
+  ('medio','tocar_violin',69),
+  ('alto','cantar',70);
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('alto','tocar_viola',71),
+  ('medio','tocar_violin',72),
+  ('medio','tocar_gitarra',73),
+  ('alto','tocar_bateria',74),
+  ('muy_alto','tocar_trompeta',75),
+  ('medio','tocar_gitarra',76),
+  ('alto','tocar_gitarra',77),
+  ('alto','cantar',78),
+  ('medio','tocar_bajo',79),
+  ('medio','cantar',80);
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('alto','tocar_bateria',81),
+  ('muy_alto','tocar_flauta',82),
+  ('alto','tocar_viola',83),
+  ('bajo','tocar_violin',84),
+  ('bajo','tocar_flauta',85),
+  ('medio','tocar_bajo',86),
+  ('muy_alto','tocar_gitarra',87),
+  ('bajo','cantar',88),
+  ('bajo','tocar_flauta',89),
+  ('alto','tocar_bajo',90);
+INSERT INTO EXPERIENCIA (NIVEL,NOMBREHABILIDAD,IDARTISTA)
+VALUES
+  ('bajo','tocar_bajo',91),
+  ('bajo','tocar_bajo',92),
+  ('alto','tocar_flauta',93),
+  ('alto','tocar_violin',94),
+  ('bajo','tocar_violin',95),
+  ('alto','tocar_bateria',96),
+  ('medio','tocar_bajo',97),
+  ('bajo','cantar',98),
+  ('medio','cantar',99),
+  ('bajo','cantar',100);

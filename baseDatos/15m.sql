@@ -1,0 +1,60 @@
+INSERT INTO AUTOR (NOMBREAUTOR,IDCANCION,IDARTISTA,LETRAAUTOR,MUSICAAUTOR)
+VALUES
+  ('Henry Parrish',1,1,'Rachel Johns','Rae Rogers'),
+  ('Joan Glover',2,2,'Deirdre Livingston','Sopoline Christensen'),
+  ('Calvin Lang',3,3,'Ashely Barnett','Joy Serrano'),
+  ('Drake Clarke',4,4,'Haley Singleton','Judith Walsh'),
+  ('Claudia Rosario',5,5,'Malachi Medina','Larissa Dunlap'),
+  ('Murphy Mann',6,6,'Ivory Santiago','Vernon Austin'),
+  ('Amir Bishop',7,7,'Ginger Fields','Mufutau Wiley'),
+  ('Thaddeus Perez',8,8,'Ciara Rojas','Driscoll Malone'),
+  ('Colin Gilbert',9,9,'Fuller Andrews','Emerson Kennedy'),
+  ('Jennifer Howell',10,10,'Ralph Nash','Benjamin Drake');
+INSERT INTO AUTOR (NOMBREAUTOR,IDCANCION,IDARTISTA,LETRAAUTOR,MUSICAAUTOR)
+VALUES
+  ('Cain Ross',11,11,'Pandora Ferrell','Hayden Bray'),
+  ('Beck Shields',12,12,'Addison Cook','Serena Brock'),
+  ('Lacey Gonzalez',13,13,'Alika Sloan','Indigo Ingram'),
+  ('Hu Carrillo',14,14,'Jael Robertson','Daniel Sharp'),
+  ('Jeanette Jennings',15,15,'Odessa Spears','Scarlet Rios'),
+  ('Vivian Meyers',16,16,'Barrett Puckett','September Mcmillan'),
+  ('Anastasia Skinner',17,17,'Chelsea Buck','Donna Langley'),
+  ('Chaney Olson',18,18,'Patience Wiley','Isabella Lynch'),
+  ('Vincent Castillo',19,19,'Caryn Richardson','Russell Marquez'),
+  ('Paul Farrell',20,20,'Lester Valdez','Gabriel Mclaughlin');
+INSERT INTO AUTOR (NOMBREAUTOR,IDCANCION,IDARTISTA,LETRAAUTOR,MUSICAAUTOR)
+VALUES
+  ('Salvador Ball',21,21,'Nevada Santos','Gage Weber'),
+  ('Graham Cook',22,22,'Shea Pennington','Aline Pennington'),
+  ('Zane Jefferson',23,23,'Abel Hendricks','Gabriel Simpson'),
+  ('Nola Wade',24,24,'Louis Green','Gail Dillard'),
+  ('Cody Lynn',25,25,'Iliana Lindsay','Lucian Charles'),
+  ('Hamilton Mcclain',26,26,'Trevor Wall','Garrison Holland'),
+  ('Latifah Cardenas',27,27,'Myles Morrison','Gwendolyn Chavez'),
+  ('Farrah Fletcher',28,28,'Alvin Kirkland','Emerald Donaldson'),
+  ('Kerry David',29,29,'Illiana Gross','Cedric Velez'),
+  ('Jennifer Raymond',30,30,'Autumn Holden','Colin Miles');
+INSERT INTO AUTOR (NOMBREAUTOR,IDCANCION,IDARTISTA,LETRAAUTOR,MUSICAAUTOR)
+VALUES
+  ('Adena Carney',31,31,'Geraldine Porter','Carla Roberts'),
+  ('Fuller Orr',32,32,'Minerva Roth','Serena Church'),
+  ('Luke House',33,33,'Emery Dillon','Leilani Sheppard'),
+  ('Oren Chavez',34,34,'Alyssa Santana','Todd Ryan'),
+  ('Stewart Daniels',35,35,'Clinton Rowe','Daquan Dalton'),
+  ('Sarah Valencia',36,36,'Simon Coleman','Leah Alford'),
+  ('Hyatt Clark',37,37,'Sacha Washington','Rhiannon Valdez'),
+  ('Acton Morris',38,38,'Harlan Jarvis','Melvin Case'),
+  ('Liberty Crane',39,39,'Nora Gentry','Imani Justice'),
+  ('Melanie Reyes',40,40,'Kelly Carlson','Petra Silva');
+INSERT INTO AUTOR (NOMBREAUTOR,IDCANCION,IDARTISTA,LETRAAUTOR,MUSICAAUTOR)
+VALUES
+  ('Beck Everett',41,41,'Rhonda Cooper','Orlando Spears'),
+  ('Robert Bird',42,42,'Allegra Serrano','Raphael Webster'),
+  ('Keiko Jackson',43,43,'Darius Sharp','Caesar Conway'),
+  ('Emery Sheppard',44,44,'Griffith Burns','Acton Benton'),
+  ('Keiko Cruz',45,45,'Paula Workman','Melinda Maldonado'),
+  ('Azalia Hooper',46,46,'Jerome Ashley','Rhonda Burnett'),
+  ('Nyssa Vincent',47,47,'Ignatius Patel','Regan Knowles'),
+  ('Yuli Chapman',48,48,'Mark Bush','Donovan Rich'),
+  ('Lana Alston',49,49,'Tate Ford','Giselle Price'),
+  ('Jemima Ross',50,50,'Michael Burris','Wyatt Sharp');

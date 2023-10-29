@@ -1,0 +1,120 @@
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$25.02','semanal','contado','31/08/2024'),
+  ('$87.56','anual','contado','19/10/2024'),
+  ('$89.89','anual','credito','07/02/2023'),
+  ('$22.22','mensual','credito','31/08/2024'),
+  ('$25.71','mensual','credito','16/11/2023'),
+  ('$85.36','semanal','credito','01/11/2023'),
+  ('$85.13','anual','credito','06/11/2022'),
+  ('$23.00','anual','credito','13/05/2023'),
+  ('$49.25','mensual','contado','21/09/2024'),
+  ('$42.30','semanal','credito','18/11/2023');
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$78.19','semanal','credito','28/01/2024'),
+  ('$10.39','semanal','contado','04/08/2023'),
+  ('$97.57','semanal','credito','19/01/2024'),
+  ('$63.88','anual','contado','01/08/2024'),
+  ('$5.62','semanal','contado','07/11/2023'),
+  ('$36.84','anual','contado','26/02/2024'),
+  ('$49.09','mensual','contado','24/11/2022'),
+  ('$55.81','mensual','contado','11/03/2024'),
+  ('$89.68','semanal','contado','12/04/2023'),
+  ('$2.77','mensual','contado','03/01/2024');
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$95.22','mensual','contado','19/05/2023'),
+  ('$41.17','semanal','credito','03/10/2024'),
+  ('$56.24','anual','credito','16/07/2024'),
+  ('$0.80','mensual','contado','22/05/2024'),
+  ('$45.69','semanal','contado','19/01/2024'),
+  ('$46.95','mensual','credito','18/09/2024'),
+  ('$86.47','semanal','contado','20/09/2024'),
+  ('$68.32','mensual','credito','27/07/2024'),
+  ('$53.46','mensual','contado','14/10/2024'),
+  ('$68.08','anual','credito','02/01/2024');
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$93.27','anual','credito','28/03/2024'),
+  ('$78.22','anual','contado','25/04/2024'),
+  ('$76.93','anual','credito','06/06/2023'),
+  ('$6.19','anual','credito','24/04/2024'),
+  ('$33.72','anual','contado','25/07/2024'),
+  ('$15.03','mensual','credito','24/09/2023'),
+  ('$30.23','mensual','contado','22/06/2024'),
+  ('$4.97','mensual','contado','08/06/2024'),
+  ('$30.14','mensual','contado','10/03/2023'),
+  ('$41.96','semanal','credito','12/06/2023');
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$42.52','semanal','credito','17/10/2024'),
+  ('$38.49','mensual','credito','09/05/2023'),
+  ('$15.70','mensual','credito','22/08/2024'),
+  ('$79.50','mensual','credito','06/06/2024'),
+  ('$58.67','semanal','contado','08/09/2024'),
+  ('$68.68','anual','credito','11/12/2022'),
+  ('$49.17','mensual','contado','07/04/2024'),
+  ('$38.17','anual','credito','11/05/2023'),
+  ('$87.46','anual','credito','28/12/2022'),
+  ('$96.01','anual','contado','25/01/2023');
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$96.19','mensual','credito','27/11/2022'),
+  ('$27.20','mensual','contado','15/11/2023'),
+  ('$43.61','semanal','credito','05/04/2023'),
+  ('$63.02','semanal','credito','13/12/2022'),
+  ('$36.68','anual','contado','21/03/2023'),
+  ('$52.46','mensual','credito','15/12/2022'),
+  ('$37.13','mensual','credito','03/09/2023'),
+  ('$89.05','semanal','credito','22/07/2024'),
+  ('$82.14','mensual','credito','12/04/2023'),
+  ('$85.52','anual','contado','24/12/2022');
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$65.08','anual','credito','21/09/2023'),
+  ('$44.51','semanal','contado','21/01/2023'),
+  ('$81.61','mensual','contado','06/05/2023'),
+  ('$22.55','anual','contado','04/11/2022'),
+  ('$48.76','mensual','credito','26/08/2023'),
+  ('$60.24','semanal','contado','16/01/2024'),
+  ('$50.18','semanal','contado','17/05/2023'),
+  ('$44.85','semanal','contado','15/01/2024'),
+  ('$62.59','semanal','credito','22/03/2023'),
+  ('$29.69','mensual','credito','25/05/2024');
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$61.68','mensual','credito','18/12/2022'),
+  ('$95.72','mensual','credito','01/01/2024'),
+  ('$54.82','mensual','contado','21/06/2024'),
+  ('$34.14','anual','contado','21/10/2023'),
+  ('$78.87','anual','credito','08/03/2024'),
+  ('$59.47','mensual','contado','07/06/2023'),
+  ('$31.61','mensual','contado','21/04/2023'),
+  ('$8.06','anual','credito','21/04/2023'),
+  ('$85.04','mensual','contado','21/01/2023'),
+  ('$76.95','semanal','credito','21/07/2023');
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$50.53','mensual','credito','25/06/2024'),
+  ('$33.11','mensual','contado','08/09/2023'),
+  ('$19.82','mensual','credito','14/08/2024'),
+  ('$56.21','anual','credito','29/01/2024'),
+  ('$47.29','anual','credito','04/12/2022'),
+  ('$25.69','mensual','contado','04/06/2023'),
+  ('$78.97','anual','contado','05/10/2023'),
+  ('$75.50','mensual','contado','06/02/2023'),
+  ('$70.92','anual','credito','27/01/2023'),
+  ('$51.93','mensual','credito','08/01/2023');
+INSERT INTO SUSCRIPCION (PRECIOSUSCRIPCION,PERIODOSUSCRIP,FORMAPAGOSUSP,FECHAFINSUSP)
+VALUES
+  ('$2.42','semanal','contado','13/07/2024'),
+  ('$27.99','mensual','credito','21/07/2023'),
+  ('$18.44','mensual','credito','11/05/2023'),
+  ('$83.96','mensual','credito','22/01/2024'),
+  ('$81.39','mensual','contado','03/04/2024'),
+  ('$69.44','mensual','contado','02/10/2023'),
+  ('$41.18','mensual','contado','02/12/2023'),
+  ('$94.81','semanal','credito','07/05/2023'),
+  ('$78.18','anual','contado','03/09/2024'),
+  ('$45.69','mensual','contado','23/06/2023');

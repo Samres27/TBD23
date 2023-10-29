@@ -1,0 +1,60 @@
+INSERT INTO GRUPOMUSICAL (NOMBREGRUPO,GENEROMUSICAL,FECHADEAGRUPACION)
+VALUES
+  ('Infección_griega','Metal','2010-01-08'),
+  ('Infección_griega','Blues','2001-07-17'),
+  ('Jóvenes_capaces','Country','2007-05-14'),
+  ('Siempre_limpio','Rock&Roll','2007-08-18'),
+  ('Joven_decadencia','Reggaetón','2005-05-20'),
+  ('Infección_griega','Soul','2004-06-29'),
+  ('Brillando_oscuramente','Country','2005-02-15'),
+  ('Alegoría_platónica','Rock&Roll','2003-09-03'),
+  ('Fricción','Ranchera','2004-12-05'),
+  ('Fuera_de_control','Rock&Roll','2004-08-24');
+INSERT INTO GRUPOMUSICAL (NOMBREGRUPO,GENEROMUSICAL,FECHADEAGRUPACION)
+VALUES
+  ('Brillando_oscuramente','Rock&Roll','2001-03-29'),
+  ('Piraña_voladora','Reggae','2007-06-25'),
+  ('Antigua_colonia','Metal','2001-04-18'),
+  ('Horca','Flamenco','2005-11-10'),
+  ('Joven_decadencia','Góspel','2004-07-14'),
+  ('Aves_de_jardín','Flamenco','2003-01-01'),
+  ('Evento_final','Disco','2008-05-13'),
+  ('','Disco','2003-05-11'),
+  ('Fricción','Disco','2008-11-17'),
+  ('Brillando_oscuramente','Pop','2004-03-27');
+INSERT INTO GRUPOMUSICAL (NOMBREGRUPO,GENEROMUSICAL,FECHADEAGRUPACION)
+VALUES
+  ('Piraña_voladora','Metal','2009-09-09'),
+  ('Infección_griega','Pop','2007-09-19'),
+  ('Infección_griega','Funk','2007-09-28'),
+  ('Planeta_en_e_limbo','Techno','2003-01-02'),
+  ('Planeta_en_e_limbo','Salsa','2010-02-06'),
+  ('Planeta_en_e_limbo','Rock&Roll','2002-05-30'),
+  ('Horca','Techno','2008-04-13'),
+  ('Enjuagar','Jazz','2010-02-21'),
+  ('Horca','Reggae','2004-12-13'),
+  ('Fricción','Funk','2004-01-02');
+INSERT INTO GRUPOMUSICAL (NOMBREGRUPO,GENEROMUSICAL,FECHADEAGRUPACION)
+VALUES
+  ('Piraña_voladora','Pop','2009-05-20'),
+  ('Pintura_húmeda','Metal','2005-01-11'),
+  ('Siempre_limpio','Pop','2004-08-14'),
+  ('Planeta_en_e_limbo','Reggaetón','2003-04-02'),
+  ('Siempre_limpio','Techno','2003-03-07'),
+  ('Piraña_voladora','Rock&Roll','2008-03-05'),
+  ('Piraña_voladora','Reggaetón','2008-05-04'),
+  ('Infección_griega','Reggaetón','2001-01-09'),
+  ('Siempre_limpio','Rock&Roll','2008-07-02'),
+  ('Enjuagar','Disco','2007-08-14');
+INSERT INTO GRUPOMUSICAL (NOMBREGRUPO,GENEROMUSICAL,FECHADEAGRUPACION)
+VALUES
+  ('Fricción','Country','2007-03-30'),
+  ('Planeta_en_e_limbo','Blues','2008-07-17'),
+  ('Jóvenes_capaces','Salsa','2007-06-01'),
+  ('Horca','Reggae','2001-05-26'),
+  ('Enjuagar','Techno','2010-08-03'),
+  ('Jóvenes_capaces','Rock&Roll','2010-03-11'),
+  ('','Rock&Roll','2004-09-15'),
+  ('Aves_de_jardín','Soul','2008-07-06'),
+  ('Brillando_oscuramente','Blues','2010-02-25'),
+  ('Mana','Rock&Roll','2002-06-02');

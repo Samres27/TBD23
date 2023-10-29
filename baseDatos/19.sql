@@ -1,0 +1,72 @@
+INSERT INTO NOMINADO (IDALBUM,IDEVENTO,IDARTISTA,IDCANCION,TIPONOMINADO,DESCRIPCIONNOMINADO,PREMIADO)
+VALUES
+  (1,34,15,5,'repetido','a','0'),
+  (2,18,9,26,'repetido','a','1'),
+  (3,28,34,26,'normal','a','0'),
+  (4,9,31,4,'repetido','a','0'),
+  (5,38,19,12,'repetido','a','1'),
+  (6,34,18,9,'normal','a','1'),
+  (7,31,40,14,'repetido','a','1'),
+  (8,23,33,16,'repetido','a','0'),
+  (9,28,25,10,'repetido','a','0'),
+  (10,24,3,37,'repetido','a','0');
+INSERT INTO NOMINADO (IDALBUM,IDEVENTO,IDARTISTA,IDCANCION,TIPONOMINADO,DESCRIPCIONNOMINADO,PREMIADO)
+VALUES
+  (11,11,21,9,'repetido','a','0'),
+  (12,30,11,29,'normal','a','0'),
+  (13,3,11,16,'normal','a','0'),
+  (14,21,35,8,'normal','a','0'),
+  (15,6,33,6,'normal','a','1'),
+  (16,38,7,21,'normal','a','0'),
+  (17,40,18,35,'normal','a','1'),
+  (18,9,16,23,'repetido','a','1'),
+  (19,23,4,35,'repetido','a','1'),
+  (20,38,4,31,'repetido','a','1');
+INSERT INTO NOMINADO (IDALBUM,IDEVENTO,IDARTISTA,IDCANCION,TIPONOMINADO,DESCRIPCIONNOMINADO,PREMIADO)
+VALUES
+  (21,34,3,5,'normal','a','1'),
+  (22,36,24,12,'repetido','a','0'),
+  (23,13,19,15,'repetido','a','1'),
+  (24,32,20,17,'repetido','a','1'),
+  (25,8,14,9,'normal','a','1'),
+  (26,10,20,26,'normal','a','0'),
+  (27,28,11,15,'repetido','a','1'),
+  (28,24,15,2,'repetido','a','0'),
+  (29,24,21,31,'repetido','a','1'),
+  (30,17,2,6,'repetido','a','1');
+INSERT INTO NOMINADO (IDALBUM,IDEVENTO,IDARTISTA,IDCANCION,TIPONOMINADO,DESCRIPCIONNOMINADO,PREMIADO)
+VALUES
+  (31,38,21,32,'repetido','a','0'),
+  (32,26,24,1,'repetido','a','1'),
+  (33,28,5,11,'normal','a','1'),
+  (34,8,36,30,'repetido','a','0'),
+  (35,9,12,39,'normal','a','1'),
+  (36,30,39,8,'normal','a','1'),
+  (37,12,32,30,'repetido','a','1'),
+  (38,32,34,36,'normal','a','1'),
+  (39,23,31,26,'normal','a','0'),
+  (40,24,8,18,'normal','a','0');
+INSERT INTO NOMINADO (IDALBUM,IDEVENTO,IDARTISTA,IDCANCION,TIPONOMINADO,DESCRIPCIONNOMINADO,PREMIADO)
+VALUES
+  (41,22,39,15,'repetido','a','1'),
+  (42,23,39,0,'normal','a','0'),
+  (43,29,5,1,'repetido','a','0'),
+  (44,24,20,34,'repetido','a','1'),
+  (45,20,24,18,'normal','a','1'),
+  (46,29,8,20,'normal','a','1'),
+  (47,29,29,26,'repetido','a','1'),
+  (48,29,27,8,'normal','a','1'),
+  (49,27,31,11,'repetido','a','0'),
+  (50,24,25,39,'repetido','a','0');
+INSERT INTO NOMINADO (IDALBUM,IDEVENTO,IDARTISTA,IDCANCION,TIPONOMINADO,DESCRIPCIONNOMINADO,PREMIADO)
+VALUES
+  (51,22,31,26,'repetido','a','1'),
+  (52,28,11,4,'repetido','a','0'),
+  (53,24,31,1,'normal','a','0'),
+  (54,25,30,35,'repetido','a','0'),
+  (55,20,23,5,'normal','a','1'),
+  (56,25,24,39,'normal','a','1'),
+  (57,20,16,19,'normal','a','1'),
+  (58,20,3,31,'normal','a','1'),
+  (59,26,10,35,'repetido','a','1'),
+  (60,26,39,32,'repetido','a','0');

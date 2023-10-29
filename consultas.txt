@@ -1,0 +1,31 @@
+	##consultas para basse de datos
+##Mostrar las canciones de loa álbumes producidos por Sony Music, entre los
+años 2022 a la fecha.
+select nombrecancion from financia,album, EMPRESAPRODUCTORA,cancion where financia.idalbum=album.idalbum and empresaproductora.idempresa=financia.idempresa and album.idalbum = cancion.idalbum and nombreempresa='Sony_Music'and  cast(substr(fechainversion,8) AS INTEGER) > 2022;
+
+
+
+2
+ select nombreartista, nombreevento, fechaevento, nombrepais from evento, nominado, artista, ciudad where evento.idEvento == nominado.idevento and artista.idartista=nominado.idartista and evento.nombreciudad =ciudad.nombreciudad and premiado==1 and (nombreevento=='Grammy.' or nombreevento=='Billboard') and FECHAEVENTO like '%2022%' ;
+ 
+3.- Mostrar la oferta, fecha de inicio y fecha de fin de las suscripciones de Juan
+Pérez. si su modalidad de pago fue al contado o al crédito.
+select iniciooferta, finoferta, FORMAPAGOSUSP  from suscripcion,oferta,cuentausuario,cliente where cuentausuario.idcu == oferta.idcu and suscripcion.idsuscripcion== oferta.idsuscripcion and cuentaUsuario.idcliente = cliente.idcliente and nombrecliente=='juan perez'; 
+
+4.- Mostrar los nombres de los componentes de grupo de Rock latino Maná, la
+procedencia de cada uno (ciudad y país de nacimiento), y que actividad
+cumple cada uno en el grupo, esto es vocalista, guitarra, etc.
+select nombreGrupo, NOMBRECIUDAD, paisartista,rolartista from grupomusical,artista where grupomusical.idgrupo==artista.idgrupo and nombreGrupo=='mana' and generoMusical=='rock latino';
+
+5.- Mostrar el ranking de las 10 listas más escuchadas del mes de septiembre, junto
+al nombre del usuario del creador de cada una de las 10 listas del ranking.
+select logincu, NOMBRELISTAREPRODUCCION from LISTAREPRODUCCION , cuentausuario where LISTAREPRODUCCION.idcu == cuentausuario.idcu and (listareproduccion.idcu,NOMBRELISTAREPRODUCCION) in (select idcu,NOMBRELISTAREPRODUCCION from REPRODUCCIONPORLISTA,LISTAREPRODUCCION where REPRODUCCIONPORLISTA.idLISTAREPRODUCCION == LISTAREPRODUCCION.idLISTAREPRODUCCION and FECHAREPRODUCCION like 'sep%%2022' group by NOMBRELISTAREPRODUCCION order by count() DESC limit 10);
+5.-
+Mostrar la lista de canciones de la lista top del mes de septiembre, de cada
+canción se debe mostrar el nombre o titulo de la canción, genero, artista que la
+interpreta
+select nombreCancion,generoMusical, nombreautor from tiene,cancion,autor,artista,grupomusical where artista.idgrupo = grupomusical.idgrupo and artista.idartista = autor.idartista and cancion.idcancion=tiene.idCancion and autor.idcancion =tiene.idcancion  and idlistareproduccion  in (select REPRODUCCIONPORLISTA.idlistareproduccion from REPRODUCCIONPORLISTA,LISTAREPRODUCCION where REPRODUCCIONPORLISTA.idLISTAREPRODUCCION == LISTAREPRODUCCION.idLISTAREPRODUCCION and FECHAREPRODUCCION like 'sep%%2022' group by NOMBRELISTAREPRODUCCION order by count() DESC limit 1);
+
+
+
+	
