@@ -669,3 +669,50 @@ create  index TIENE9_FK on TIENE (
 IDCANCION ASC
 );
 
+create table IF NOT EXISTS BITACORAPLANDEPAGOS (
+IDBPP       INTEGER not null,
+OLD_ID INT,
+NEW_ID INT,
+OLD_FECHADEPAGO          DATE,                 
+OLD_IDSUSCRIPCION        INTEGER,
+OLD_FECHAREALPAGO        DATE,
+OLD_FORMAPAGO            VARCHAR(32),
+OLD_MONTO                VARCHAR(32),
+accion                   VARCHAR(32),
+fechaMod                 VARCHAR(20),   
+primary key (IDBPP)
+);
+
+
+create trigger IF NOT EXISTS bitacora_after_update_plandepagos
+      after update on PLANDEPAGOS
+      WHEN OLD.FECHADEPAGO <> new.FECHADEPAGO
+      or old.FORMAPAGO <> new.FORMAPAGO
+      or old.MONTO <> new.MONTO
+      or old.FECHAREALPAGO <> new.FECHAREALPAGO
+begin 
+      INSERT into BITACORAPLANDEPAGOS(
+            OLD_ID,
+            NEW_ID,
+            OLD_FECHADEPAGO,                 
+            OLD_IDSUSCRIPCION,
+            OLD_FECHAREALPAGO,
+            OLD_FORMAPAGO,
+            OLD_MONTO,
+            accion,
+            fechaMod   
+      )
+
+      VALUES
+      (
+            old.IDPLANDEPAGOS,
+            new.IDPLANDEPAGOS,
+            old.FECHADEPAGO,
+            old.IDSUSCRIPCION,
+            old.FECHAREALPAGO,
+            old.FORMAPAGO,
+            old.MONTO,
+            'UPDATE',
+            datetime('now')
+      );
+end;

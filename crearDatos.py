@@ -49,8 +49,7 @@ class consSql:
                 from financia,album, EMPRESAPRODUCTORA,cancion 
                 where 
                     financia.idalbum=album.idalbum and empresaproductora.idempresa=financia.idempresa and 
-                    album.idalbum = cancion.idalbum and nombreempresa='Sony Music'and c
-                    ast(strftime('%Y',ANIOESTRENO) as integer)  >= 2022;'''
+                    album.idalbum = cancion.idalbum and nombreempresa='Sony Music'and cast(strftime('%Y',ANIOESTRENO) as integer)  >= 2022;'''
         cur = con.execute(cons)
         for x in cur:    
             print(x)
