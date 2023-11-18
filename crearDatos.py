@@ -129,11 +129,7 @@ class consSql:
         #interpreta.
         con=sqlite3.connect("baseDatos//TDB.db")     
         cons='''select nombreCancion,generoMusical, nombreautor 
-                from tiene,cancion,autor,artista,grupomusical 
-                where artista.idgrupo = grupomusical.idgrupo and artista.idartista = autor.idartista 
-                    and cancion.idcancion=tiene.idCancion and autor.idcancion =tiene.idcancion  
-                    and idlistareproduccion  in (select REPRODUCCIONPORLISTA.idlistareproduccion 
-                                                    from REPRODUCCIONPORLISTA,LISTAREPRODUCCION 
+                    from REPRODUCCIONPORLISTA,LISTAREPRODUCCION 
                                                     where REPRODUCCIONPORLISTA.idLISTAREPRODUCCION == 
                                                             LISTAREPRODUCCION.idLISTAREPRODUCCION and 
                                                             FECHAREPRODUCCION like '%2022%%9%' 
