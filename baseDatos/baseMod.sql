@@ -724,7 +724,7 @@ create trigger IF NOT EXISTS bitacora_after_update_plandepagos
 begin 
       update  SUSCRIPCION
             
-      set PRECIOSUSCRIPCION =PRECIOSUSCRIPCION*0.9
+      set PRECIOSUSCRIPCION =PRECIOSUSCRIPCION*0.9;
 
       
 end;
